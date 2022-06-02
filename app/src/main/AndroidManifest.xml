@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectwastebin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectWasteBin"
+        tools:replace="android:theme">
+        <activity android:name=".Buyer.RateUs"></activity>
+        <activity android:name=".Buyer.AllOrders" />
+        <activity android:name=".Category.FashionBeauty" />
+        <activity android:name=".Category.PlantNursery" />
+        <activity android:name=".Category.Sports" />
+        <activity android:name=".Category.Vehicles" />
+        <activity android:name=".Category.Furniture" />
+        <activity android:name=".Category.Clothes" />
+        <activity android:name=".Category.Electronics" />
+        <activity android:name=".Category.Newspaper" />
+        <activity android:name=".Category.Restaurant" />
+        <activity android:name=".Category.BrokenPlastic" />
+        <activity android:name=".Category.PlasticBottle" />
+        <activity android:name=".Category.Organic" />
+        <activity android:name=".Buyer.CategoryActivity" />
+        <activity android:name=".Admin.AdminActivity" />
+        <activity android:name=".Sellers.SellerHomeDemo" />
+        <activity android:name=".Admin.AdminCheckNewProductsActivity" />
+        <activity android:name=".Sellers.SellerAddNewProductActivity" />
+        <activity android:name=".Sellers.SellerProductCategoryActivity" />
+        <activity android:name=".Sellers.SellerHomeActivity" />
+        <activity android:name=".Sellers.SellerLoginActivity" />
+        <activity android:name=".Sellers.SellerRegistrationActivity" />
+        <activity android:name=".Admin.AdminMaintainProductsActivity" />
+        <activity android:name=".Buyer.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Buyer.SearchProductsActivity" />
+        <activity android:name=".Admin.AdminUserProductsActivity" />
+        <activity android:name=".Admin.AdminNewOrderActivity" />
+        <activity android:name=".Buyer.ConfirmFinalOrderActivity" />
+        <activity android:name=".Buyer.CartActivity" />
+        <activity android:name=".Buyer.ProductDetailsActivity" />
+        <activity android:name=".Buyer.SettingsActivity" />
+        <activity
+            android:name=".Buyer.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.ProjectWasteBin.NoActionBar" />
+        <activity android:name=".Admin.AdminAddNewProductActivity" />
+        <activity android:name=".Admin.AdminCategoryActivity" />
+        <activity android:name=".Buyer.RegisterActivity" />
+        <activity android:name=".Buyer.LoginActivity" />
+        <activity android:name=".Buyer.MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".Buyer.MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Grow"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Business"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        ></TextView>
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff "
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"
+        android:text="Login"
+
+        />
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Register"
+        android:backgroundTint="#fff "
+        android:textColor="#000"/>
+
+    <TextView
+    android:id="@+id/seller_begin"
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:text="Want to become a Seller?"
+    />
+
+
+
+
+
+
+
+</LinearLayout>
